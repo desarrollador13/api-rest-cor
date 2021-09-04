@@ -1,0 +1,15 @@
+version: '3.1'
+
+services:
+  api:
+    container_name: api-prueba
+    image: api-prueba
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    networks:
+      app-network:
+    ports:
+      - "3001:3001"
+networks:
+  app-network:

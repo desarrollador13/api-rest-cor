@@ -1,0 +1,22 @@
+{
+  "name": "prueba-sopa-letras",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage --collectCoverageFrom=src/**/*.{ts,js,jsx} --colors",
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "express": "^4.17.1",
+    "jest": "^27.1.0",
+    "jest-html-reporters": "^2.1.6",
+    "jsonwebtoken": "^8.5.1",
+    "sinon-chai": "^3.7.0",
+    "sinon-express-mock": "^2.2.1"
+  }
+}
